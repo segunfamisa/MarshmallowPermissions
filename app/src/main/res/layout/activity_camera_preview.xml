@@ -3,15 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.segunfamisa.sample.marshmallow.permissions.CameraPreviewActivity">
 
-    <FrameLayout
-        android:id="@+id/frame_camera_preview"
+    <com.segunfamisa.sample.marshmallow.permissions.CameraPreview
+        android:id="@+id/camera_preview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-    </FrameLayout>
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
